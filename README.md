@@ -188,3 +188,8 @@ Se o FPS cair, reduza `cols/lines`.
 
 ## 📜 Licença
 Uso livre para fins educacionais e demonstrações. Se publicar, é bacana citar/creditar.
+
+---
+
+## A ideia inicial foi desenvolvimento proprio, mas as atulizações foi com usa de IA
+
