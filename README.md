@@ -1,53 +1,51 @@
-# ABSURDO Terminal Show (Windows) 🚀
+# Impressionador ULTRA (Windows) 🚀
 
-Um *show* de efeitos em **TrueColor (24-bit)** no terminal, com **alta resolução** usando o caractere `▀` (half-block) para representar **2 pixels verticais por caractere**. Isso faz tudo ficar MUITO mais detalhado quando você aumenta o tamanho do terminal.
+Mantém a **essência** (3 principais) e adiciona várias cenas impressionantes.
 
-## ✅ Requisitos
-- **Windows 10/11**
-- **Python 3.10+** (recomendado)
-- Terminal recomendado:
-  - **Windows Terminal** (o melhor)
-  - PowerShell moderno
-  - Terminal do VS Code
+## ✅ Principais
+1) Donut 3D girando
+2) Chuva Matrix
+3) Fractal de Mandelbrot
 
-> **Importante (UTF-8):** no Windows, use `chcp 65001` para garantir que o bloco `▀` renderize corretamente.
+## 🔥 Extras
+4) Hyperspace Starfield
+5) DOOM Fire
+6) Plasma / Nebula
+7) Metaballs
+8) Game of Life
+
+## 🎛️ Temas e Cor
+- `T` troca tema: **Normal → Suave → Neon → Psicodélico → Mono**
+- `C` liga/desliga cor (mesmo com tema selecionado)
+
+## 📊 Indicadores
+Mostra **FPS**, tamanho do terminal, viewport, tema, cor, velocidade e pausa.
 
 ## ▶️ Rodando
+### Opção rápida
+Duplo clique em `run.bat`.
 
-### Opção A — Duplo clique (bat)
-1. Abra a pasta
-2. Execute `run.bat`
-
-### Opção B — Manual
-No PowerShell:
+### Manual
 ```powershell
 chcp 65001
-python absurdo_terminal_show.py
+python impressionador_ultra.py
 ```
 
-## 🖥️ Deixar ABSURDO aumentando o terminal (mais detalhes em tudo)
-**Quanto mais COLUNAS (`cols`) você tiver, mais detalhes em TODAS as cenas.**
-
-### Windows Terminal
-- **Maximize** ou **tela cheia** (geralmente `Alt+Enter` ou `F11`, depende do setup)
-- Configurações → Perfil → Aparência → Fonte monoespaçada (ex.: Cascadia Mono)
-
-### CMD / PowerShell (redimensionar via comando)
-Você pode forçar colunas/linhas:
+## 🖥️ Mais detalhe = mais colunas
 ```bat
 mode con: cols=200 lines=60
 ```
-Sugestões boas:
+Sugestões:
 - `cols=160 lines=45`
-- `cols=200 lines=60`
-- `cols=240 lines=70` (se sua tela aguentar)
+- `cols=220 lines=65`
 
-## 🎮 Controles
-- `1..5` troca de cena
-- `Espaço` pausa
-- `R` reset da cena
-- `+ / -` velocidade
-- `Q` ou `ESC` sair
+## 🎮 Controles (durante as cenas)
+- `1..8` troca de cena
+- `T` tema | `C` cor
+- `+/-` velocidade
+- `P` pausa
+- `R` reset
+- `H` ajuda
+- `Q`/`ESC` menu
 
-## 💡 Dica
-Se o desempenho cair no Mandelbrot, reduza um pouco `cols` ou `lines`.
+> Dica: Se estiver MUITO psicodélico, use `T` até chegar em **Suave** ou **Mono**.
